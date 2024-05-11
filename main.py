@@ -83,7 +83,7 @@ if __name__ == '__main__':
             create_download_link(translated_description, f"{download_name}_pt-br.txt")
 
             description_braille: str = braille.text_to_braille(translated_description)
-            st.write("**Texto em Braille**")
+            st.write("**Texto do pt-br para Braille**")
             st.write(description_braille)
             create_download_link(description_braille, f"{download_name}_braille.txt")
 
